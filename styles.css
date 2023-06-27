@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(50deg,#b1dff4,#c0e1f1,#bbe3f5,#dcedf5);
+    background-size: 400% 400%;
+    position: relative;
+    animation: fondo 10s ease infinite;
+    color: #333;
+}
+@keyframes fondo {
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+main{
+    margin: 0 auto;
+    max-width: 50em;
+}
+#titulo{
+    text-align: center;
+}
+.present{
+    border: rgb(123, 188, 214) 4px groove;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgba(245, 245, 245, 0.566);
+}
+#quien{
+    text-align: center;
+}
+#somos{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.info{
+    border: rgb(123, 188, 214) 4px groove;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: -30px;
+    background-color: rgba(245, 245, 245, 0.566);
+}
+#porque{
+    text-align: center;
+}
+#explicacion{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.enlace{
+
+    display: block;
+    justify-content: center;
+    margin: 50px;
+    margin-top: -40px;
+}
+#pincha{
+    text-align: center;
+}
+#ref{
+    text-align: center;
+}
+.foto{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+#img{
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+    @keyframes slidein {
+        from{
+            margin-left: 100%;
+            width: auto;
+            
+        }
+        to{
+            margin-left: 0%;
+            width: auto;
+        }
+        
+    }
+    
+
+#hid{
+    font-size: 50px;
+    margin-top: -10px;
+    color: black;
+}
